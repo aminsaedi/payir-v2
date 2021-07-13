@@ -4,6 +4,10 @@
 
 By using this package you will be able to work with pay.ir rest api documented at https://docs.pay.ir/gateway/
 
+### Note: Fully tested at 1400/04/24
+
+This package fully tested at 2021/jul/14 1400/04/24
+
 This package use ES6 and depends os [axios](https://axios-http.com) v0.21.1
 
 ## Installation
