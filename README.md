@@ -36,7 +36,7 @@ returns a promis witch can be rejected if `amount<=10000` or your callback url i
 | callbackUrl | yes      | payment gateway will redirect user to this url after payment finished with two params : 1-status 2-token |
 | options     | no       | options to send to payment gateawy like: factorNumber, mobile, etc.                                      |
 
-Also you can read more about these on [pay.ir documents at](https://docs.pay.ir/gateway/#مرحله-اول-ارسال-دیتا)
+Also you can read more about these on [pay.ir documents](https://docs.pay.ir/gateway/#مرحله-اول-ارسال-دیتا)
 
 ### 2- `verify` method
 
@@ -51,4 +51,4 @@ retuens a promis witch resolved with verify data or rejected if `status !== "1"`
 | token  | yes      | token of of your gateway witch retuen in parm in your callbackUrl `https://yourCallback.test?token=yourToken` |
 | status | yes      | token of of your gateway result witch retuen in parm in your callbackUrl `https://yourCallback.test?status=1` |
 
-Also you can read more about these on [pay.ir documents at](https://docs.pay.ir/gateway/#مرحله-اول-ارسال-دیتا)
+Also you can read more about these on [pay.ir documents](https://docs.pay.ir/gateway/#مرحله-اول-ارسال-دیتا)
