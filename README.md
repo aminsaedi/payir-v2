@@ -32,7 +32,7 @@ Now you can use following methods:
 
 `pay.send(amount,callbackUrl,options)`
 
-returns a promis witch can be rejected if `amount<=10000` or your callback url is not correct and resilved with this object : `{status: 1, token: "createdToken"}`
+returns a promis witch can be rejected if `amount<=10000` or your callback url is not correct or resolved with this object : `{status: 1, token: "createdToken", gatewayUrl : "https://linkToGateway"}`
 
 | Name        | Required | Description                                                                                              |
 | ----------- | -------- | -------------------------------------------------------------------------------------------------------- |

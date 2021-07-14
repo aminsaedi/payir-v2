@@ -55,7 +55,10 @@ class Payir {
         })
         .then((data) => {
           {
-            resolve(data.data);
+            resolve({
+              ...data.data,
+              gatewayUrl: `https://pay.ir/pg/${data.data.token}`,
+            });
           }
         })
         .catch((e) => {
