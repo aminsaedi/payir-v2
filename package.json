@@ -1,6 +1,6 @@
 {
   "name": "payir-v2",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A node.js packeage to user pay.ir rest api",
   "main": "index.js",
   "scripts": {
