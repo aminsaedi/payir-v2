@@ -7,9 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "payir"
+    "payir",
+    "payir-v2",
+    "pay.ir"
   ],
-  "author": "Amin Saedi",
+  "author": "Amin Saedi <amin.di.sam@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1"
