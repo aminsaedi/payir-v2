@@ -14,7 +14,7 @@
   "author": "Amin Saedi <amin.di.sam@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.21.1"
+    "axios": "^1.6.0"
   },
   "repository": {
     "type": "git",
